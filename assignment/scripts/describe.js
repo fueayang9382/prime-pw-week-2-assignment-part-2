@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// The number value is set to 1 intially. 
+// with the "number++;" function it is adding one to the value so it increase by one. 
+// number = 1 + 1 so the new number value will be 2. 
+// The console.log() is yes because the number value of 2 matched the conditional statement: if (number >= 2 ).
 
 //CODE
 /*

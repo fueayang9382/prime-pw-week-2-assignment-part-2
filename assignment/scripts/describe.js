@@ -30,10 +30,6 @@ if (number >= 2) {
 // However, Dane is NOT the same as Mary so the else statement will be trigger since Dane is not exactly to Mary, 
 // Else's conditional console.log will be trigger logging 'How do you do?'
 
-// The number value is set to 1 intially. 
-// with the "number++;" function it is adding one to the value so it increase by one. 
-// number = 1 + 1 so the new number value will be 2. 
-// The console.log() is yes because the number value of 2 matched the conditional statement: if (number >= 2 ).
 
 //CODE
 /*

@@ -25,7 +25,11 @@ if (number >= 2) {
 */
 
 
-// 1. WRITE YOUR DESCRIPTION HERE
+// 1. WRITE YOUR DESCRIPTION HERE 
+// Namen is set to Dane, and if conditional value is exactly equal to Mary console.log('Hi, Mary!'). 
+// However, Dane is NOT the same as Mary so the else statement will be trigger since Dane is not exactly to Mary, 
+// Else's conditional console.log will be trigger logging 'How do you do?'
+
 // The number value is set to 1 intially. 
 // with the "number++;" function it is adding one to the value so it increase by one. 
 // number = 1 + 1 so the new number value will be 2. 
@@ -44,11 +48,13 @@ if (name === 'Mary') {
 
 */
 
-// 2. WRITE YOUR DESCRIPTION HERE
-// Namen is set to Dane, and if statemnet is set to if name is exactly matches to Mary log equal to 'Hi Mary!'
-// However, Dane is NOT the same as in Mary so the else statement will be trigger since Dane is not exactly to Mary, 
-// Else log will be trigger logging 'How do you do?'
-//
+// 2. WRITE YOUR DESCRIPTION HERE 
+// code is intially assigned to 123. 
+// Since code is exactly equal to 123, secret is asigned the value of 'Super.'
+// Code value of 123 is then multiply by 2 to get 246. If Code is greater than 250, variable secret new value will be assigned to 'duper.'
+//However, Code value of 123 multiply by 2 only get to 246 which is less than 250; therefore, secret remains as super. 
+
+
 
 //CODE
 /*
@@ -69,11 +75,16 @@ console.log(secret)
 
 */
 
+
 // 3. WRITE YOUR DESCRIPTION HERE
-// code is intially assigned to 123. 
-// Since code is exactly equal to 123, secret is asigned the value of 'Super.'
-// Code value of 123 is then multiply by 2 to get 246. If Code is greater than 250, variable secret new value will be assigned to 'duper.'
-//However, Code value of 123 multiply by 2 only get to 246 which is less than 250; therefore, secret remains as super. 
+// isStudent value is set to true.
+//age value is set to 34
+//zip code is set to 55407.
+//the first statement will not excute because isStudent must be true AND zip must also be greater than 80000.  
+//The second else if statement will not be excuted because isStudent must be false OR age must be less than thirty. Both values do not meet the conditonals. 
+//The third statement will be excuted because else if conditional statement is only asking if isStudent is true, which isStudent value is true. 
+//Last else statement will not be excuted because the third else if conditional will be triggered. This 
+
 
 //CODE
 /*

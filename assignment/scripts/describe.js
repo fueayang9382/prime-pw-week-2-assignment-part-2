@@ -193,10 +193,9 @@ if(minAge <= age) {
 }
 */
 
-// this code won't be evaluating the right variable. The problem is that we are checking the variable age not minAge.
-//the if(minAge <= age ) statement is checking on the minAge variable but we need to need to check the age variable to log our answer. 
+//The if conditional statement does not reflect the description.  The problem is that we are checking the variable age not minAge.
 //We don't need to check for minAge because minAge is a const variable; therefore, it won't change and is pointless checking. 
-//To fix the code we would just need to reverse the code to correct the if statement.
+//To fix the code we would just need to reverse the variable to correct the if statement to match the description. 
 //vvv below is how the if statment should be worded. vvv
 
 // if(age >= to minAge){

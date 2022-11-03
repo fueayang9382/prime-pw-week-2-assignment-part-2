@@ -46,7 +46,7 @@ if (name === 'Mary') {
 
 // 2. WRITE YOUR DESCRIPTION HERE
 // Namen is set to Dane, and if statemnet is set to if name is exactly matches to Mary log equal to 'Hi Mary!'
-// However, Dane is NOT the same as in Mary so the else statement will be trigger since Dane is not exactly Mary. 
+// However, Dane is NOT the same as in Mary so the else statement will be trigger since Dane is not exactly to Mary, 
 // Else log will be trigger logging 'How do you do?'
 //
 
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// code is intially assigned to 123. 
+// Since code is exactly equal to 123, secret is asigned the value of 'Super.'
+// Code value of 123 is then multiply by 2 to get 246. If Code is greater than 250, variable secret new value will be assigned to 'duper.'
+//However, Code value of 123 multiply by 2 only get to 246 which is less than 250; therefore, secret remains as super. 
 
 //CODE
 /*
@@ -93,6 +93,10 @@ if (isStudent === true && zip > 80000 ) {
 
 */
 
+//the first statement will not excute because the zip code is less than 80000.  This code won't be excuted. 
+//The second else if statement will not be excuted because the isStudent must be exactly false.  The isStudent value is true value. 
+//The third statement will be excuted because else if conditional statement is only asking if isStudent is true, which isStudent value is true. 
+//Last else statement will not be excuted because the third else if conditional will be triggered. 
 
 
 
@@ -137,7 +141,12 @@ let mix = true;
 if (mix === true) {
   colorOne = 'purple';
 }
-*/
+*/ 
+ 
+//This code will not excute because colorOne has already assigned a value to it which is 'red.'
+//We would need to make a new variable that can assign new value to purple.  
+//We can make a new variable called colorMix; or colorMix = '' that way we can assign a new value late on. 
+
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
@@ -151,6 +160,12 @@ if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
+
+//The if statement, 'if (temp > 39 || time >= 4)' doesn't serve the statement 'We check if temp is higher than 39 and if time is greater or equal to  4.'
+// the 'if (temp > 39 || time >= 4)' translate as ' if temperature is greater than 39 ***OR*** time is greater or equal to 4 log 'throw away food.' 
+// We need both conditionals to be met to 'throw away food'; therfore, temperature must be greater than 39 ***AND*** time must be greater or equal to 4 to log 'throw away food.'
+//The if conditional statement we need to log correctly is 'if(temp > 39 && time >= 4){console.log ('throw away food!')}
+
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
@@ -167,3 +182,15 @@ if(minAge <= age) {
 }
 */
 
+// this code won't be evaluating the right variable. The problem is that we are checking the variable age not minAge.
+//the if(minAge <= age ) statement is checking on the minAge variable but we need to need to check the age variable to log our answer. 
+//We don't need to check for minAge because minAge is a const variable; therefore, it won't change and is pointless checking. 
+//To fix the code we would just need to reverse the code to correct the if statement.
+//vvv below is how the if statment should be worded. vvv
+
+// if(age >= to minAge){
+  //console.log('no entry');
+//}
+//else{
+  //console.log('enter')
+//}

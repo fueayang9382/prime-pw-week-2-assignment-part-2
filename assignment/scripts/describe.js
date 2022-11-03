@@ -45,9 +45,9 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// Namen is set to Dane, and if statemnet is set to if name is exactly matches to Mary log equal to 'Hi Mary!'
+// However, Dane is NOT the same as in Mary so the else statement will be trigger since Dane is not exactly Mary. 
+// Else log will be trigger logging 'How do you do?'
 //
 
 //CODE

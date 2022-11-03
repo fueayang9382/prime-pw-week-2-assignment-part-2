@@ -154,9 +154,9 @@ if (mix === true) {
 }
 */ 
  
-//This code will not excute because colorOne has already assigned a value to it which is 'red.'
-//We would need to make a new variable that can assign new value to purple.  
-//We can make a new variable called colorMix; or colorMix = '' that way we can assign a new value late on. 
+// we would have to switch the variable value so it would reflect the description. 
+//let colorOne = 'Blue'
+//let colorTwo = 'Red' 
 
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.

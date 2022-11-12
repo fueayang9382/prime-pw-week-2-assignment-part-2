@@ -80,7 +80,7 @@ console.log(secret)
 //The second else if statement will not be excuted because isStudent must be false OR age must be less than thirty. Both values do not meet the conditonals. 
 //The third statement will be excuted because else if conditional statement is only asking if isStudent is true, which isStudent value is true. 
 //Last else statement will not be excuted because the third else if conditional will be triggered. This 
-
+// console.log('How is the weather?') the else statement will be log out since the if statment is false due to zip code not greater to 8000 and the else if statement is false where age is not less than 30. 
 
 //CODE
 /*
@@ -152,7 +152,7 @@ if (mix === true) {
  
 // we would have to switch the variable value so it would reflect the description. 
 //let colorOne = 'Blue'
-//let colorTwo = 'Red' 
+//let colorTwo = 'purple' 
 
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -195,9 +195,9 @@ if(minAge <= age) {
 //vvv below is how the if statment should be worded. vvv
 
 // if(age >= to minAge){
-  //console.log('no entry');
+  //console.log('enter');
 //}
 //else{
-  //console.log('enter')
+  //console.log('no entry')
 //}
 //b
